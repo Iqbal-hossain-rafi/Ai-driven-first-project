@@ -1,0 +1,74 @@
+"Create a simple, clean, and modern FAQ section for a developer conference website called 'DevConf 2026'. Use basic HTML structures and clean CSS with a dark background, white text,
+ and simple hover effects. The design must be fully responsive and easy to understand for beginners."
+
+html code:
+<section class="faq-section">
+    <div class="faq-container">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <p class="faq-subtitle">Got questions? We've got answers.</p>
+
+        <div class="faq-list">
+            <div class="faq-item">
+                <h3 class="faq-question">Who can attend DevConf 2026?</h3>
+                <p class="faq-answer">Anyone interested in technology! Students, professional developers, designers, and tech enthusiasts are all welcome.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Will the sessions be recorded?</h3>
+                <p class="faq-answer">Yes, all keynote speeches and technical sessions will be recorded and shared with ticket holders after the event.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Is there a student discount available?</h3>
+                <p class="faq-answer">Absolutely! Valid student ID holders can get a 50% discount on the general admission tickets.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+css code:
+.faq-section {
+    background-color: #111827;
+    color: #ffffff;
+    padding: 60px 20px;
+    font-family: sans-serif;
+}
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.faq-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+.faq-subtitle {
+    text-align: center;
+    color: #9ca3af;
+    margin-bottom: 40px;
+}
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.faq-item {
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #38bdf8;
+    transition: background 0.3s;
+}
+.faq-item:hover {
+    background-color: #374151; 
+}
+.faq-question {
+    font-size: 1.2rem;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+}
+.faq-answer {
+    color: #d1d5db;
+    margin: 0;
+    line-height: 1.5;
+}
