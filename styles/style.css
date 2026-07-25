@@ -153,4 +153,129 @@ nav ul{
     margin: 0;
 }
 
+/* spot section start */
+.ticket-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.ticket-main-title {
+    font-size: 52px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.ticket-subtitle {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 40px;
+}
+
+
+.ticket-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.ticket-card {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.ticket-card.card-dark {
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+.ticket-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #64748b;
+    letter-spacing: 1px;
+}
+
+.card-dark .ticket-name {
+    color: #94a3b8;
+}
+
+.ticket-price {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+.ticket-time {
+    font-size: 12px;
+    color: #64748b;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e2e8f0;
+    display: block;
+}
+
+.card-dark .ticket-time {
+    color: #94a3b8;
+    border-bottom: 1px solid #1e293b;
+}
+
+
+.ticket-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.ticket-list li {
+    font-size: 13px;
+    padding: 8px 0;
+    border-bottom: none;
+}
+
+
+.ticket-list li::before {
+    content: "• ";
+    color: #2563eb;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.card-dark .ticket-list li {
+    border-bottom: none;
+    color: #cbd5e1;
+}
+
+
+.ticket-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-light {
+    background-color: transparent;
+    border: 1px solid #cbd5e1;
+    color: #2563eb;
+}
+
+.btn-blue {
+    background-color: #2563eb;
+    color: #ffffff;
+}
 
