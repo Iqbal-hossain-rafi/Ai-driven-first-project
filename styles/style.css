@@ -329,3 +329,45 @@ nav ul{
 
 /* something missing section end */
 
+/* footer section start */
+.plus-footer {
+    background-color: #0f172a;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-top: 1px solid #1e293b;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.copyright-text {
+    color: #94a3b8;
+    font-size: 13px;
+    margin: 0;
+}
+
+.footer-links-right {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-policy-link {
+    color: #94a3b8;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.link{
+    margin-left: 20px;
+}
+
+.footer-policy-link:hover {
+    color: #ffffff;
+}
+/* footer section end */
